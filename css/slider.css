@@ -1,0 +1,43 @@
+.wrapper{
+	width: 500px;
+	margin: 0 auto;
+}
+#slider{
+	width: 320px;
+	height: 240px;
+	overflow: hidden;
+	margin: 0px auto;
+}
+
+#slider > img {
+	width: 320px;
+	height: 240px;
+	float: left;
+	display: none;
+}
+
+a{
+	padding: 5px 10px;
+	background-color: #F0F0F0;
+	margin-top: 30px;
+	text-decoration: none;
+	color: #0000CD;
+}
+
+a.left{
+	float: left;
+}
+a.right{
+	float: right;
+}
+p{
+	text-align:center;
+}
+
+.hidden{
+	visibility:hidden;
+}
+
+.visible{
+	visibility:visible;
+}
